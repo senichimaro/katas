@@ -1,0 +1,20 @@
+{
+  "name": "003",
+  "version": "1.0.0",
+  "description": "This kata enable HTTP endpoints to do CRUD actions. Set Express HTTP endpoints based in NodeJs to process CRUD action against MongoDB database through a Mongoose interface.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.0.1",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12"
+  }
+}
